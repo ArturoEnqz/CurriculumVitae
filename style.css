@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: "Verdana", sans-serif;
+    color: #003A60;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: white;
+    height: 100vh;
+    margin-inline: 400px;
+}
+
+.head {
+    height: 170px;
+    background-color: #C3D8E5;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-inline: 400px;
+}
+
+p {
+    font-size: 45px;
+    margin-block: 3px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 10px 0;
+}
+
+.liTitulo {
+    font-weight: bold;
+}
+
+.nombre {
+    font-weight: bolder;
+}
+
+.apellido {
+    font-weight: bolder;
+    margin-top: -2px;
+}
+
+.carrera {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.aside {
+    height: auto;
+    width: 100%;
+    background-color: #E3EFF7;
+    margin-bottom: 10px;
+}
+
+.asideTitulo {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+hr {
+    border: 2px solid #003A60;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.contenido {
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.asideDetalle {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black;
+}
+
+.titulo {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #003A60;
+}
+
+.imagen {
+    height: 160px;
+    margin: 15px auto auto;
+    position: relative;
+}
+
+img {
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 10px solid #C3D8E5;
+}
